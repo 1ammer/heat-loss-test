@@ -1,7 +1,8 @@
 # US County Population Aggregator
 
-This script processes a noisy US county demographics dataset, cleans it, and aggregates county-level population data into state-level totals.  
-It also appends a **national total row** and saves the final results as a CSV file.
+This script processes a noisy US county demographics dataset, cleans it, and outputs county-level population data as a CSV (one row per county).
+
+In addition, the script aggregates the data to produce state-level totals and a national total row, saving these results in a separate CSV.
 
 ## Requirements
 
@@ -68,7 +69,7 @@ pip install -r requirements.txt
 
 ### Run_commands
 
-Place the input file in the data folder, then run the script using the following command:
+The input dataset is sourced from "https://corgis-edu.github.io/corgis/csv/county_demographics/?utm_source=chatgpt.com" in the data folder, then run the script using the following command:
 
 ```bash
 python main.py
