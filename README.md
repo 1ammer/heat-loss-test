@@ -68,5 +68,9 @@ pip install -r requirements.txt
 
 ### Run_commands
 
-Put the file in data folder and run the script with this command
+Place the input file in the data folder, then run the script using the following command:
+
+```bash
 python main.py
+
+The generated output csv will be save in the output folder 
